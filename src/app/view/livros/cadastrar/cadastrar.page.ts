@@ -16,7 +16,7 @@ export class CadastrarPage implements OnInit {
   public autor: string;
   public genero: string;
   public editora: string;
-  public anoPublicacao: number;
+  public anoPublicacao: Date;
   public lista_livros : Livro[] = [];
   public imagem : any;
   public user: any;

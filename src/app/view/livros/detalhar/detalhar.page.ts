@@ -19,7 +19,7 @@ export class DetalharPage implements OnInit {
   autor: string;
   genero: string;
   editora: string;
-  anoPublicacao: number;
+  anoPublicacao: Date;
   edicao: boolean = true;
   public imagem : any;
   public user: any;
